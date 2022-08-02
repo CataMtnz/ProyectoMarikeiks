@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#desplegable{
+    position: fixed;
+    width: 5%;
+    top: 4%;
+    right: 6%;
+    vertical-align: top;
+}
+
+/*carrito*/
+#carrito{
+    position: fixed;
+    width: 5%;
+    top: 5%;
+    right: 18%;
+    vertical-align: top;
+}
+
+/*Logo*/
+#logo {
+    width: 150px; 
+    height: 200px; 
+    object-fit: cover;
+    position: fixed;
+    top: 0%;
+    left: 2%;
+}
+
+.logo2{
+    vertical-align: middle;
+    width: 50px; 
+    height: 50px; 
+}
+#texto_top0{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Alex Brush', cursive;
+    font-size: 680%;
+    color:whitesmoke;
+}
+
+#texto_top1{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 650%;
+    text-transform: uppercase;
+    color:#BFE9E0; 
+}
+
+#texto_top2{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 470%;
+    text-transform: uppercase;
+    color:#18cda6; 
+}
+
+#texto_top1:hover{
+    color:goldenrod;
+}
+
+.textoSpan {
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:midnightblue;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+/*Fondo de la pagina (gradient)*/
+.fondo0 {
+    background-color: #7EB8DA;
+    padding-bottom: 100px;
+    padding: 20px;
+}
+
+/*Fondo de la pagina (gradient)*/
+.fondo1 {
+    background: linear-gradient(to bottom, #7EB8DA, #92DDEA,whitesmoke, whitesmoke,#92DDEA,#7EB8DA);
+    padding-bottom: 100px;
+    padding: 10px;
+    border: 10px solid #92DDEA;
+    border-radius: 40px;
+}
+
+/*Fondo superior (imagen)*/
+.fondo-top{
+    background-image: url("assets/img/fondo2.png");
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: 100%;
+    border-radius: 30px;
+    padding: 27%;
+}
+
+/*Imagenes de presentacion*/
+.img-thumbnail{
+    width: 100%;
+    vertical-align: top;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+}
+
+/*Textos de presentacion imagen 1,2,3,4*/
+.text-seccion { 
+    color: #4C1159;
+    vertical-align: top;
+    font-size: 20px;
+    vertical-align: top;
+    display: flex;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+/*Botones pagina index*/
+.button{
+    display: inline-block;
+    color:#4C1159;
+    text-align: center;
+    text-decoration: none;
+    background-color:bisque;
+    border: 1px solid #4c1159;
+    border-radius: 30px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: 'Marcellus', serif;
+}
+
+.button:hover{
+    background-color: purple;
+    color:white;
+}
+
+/*Seccion de preguntas y respuestas*/
+.FAQ1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/*Footer universal*/
+footer {
+    font-family: 'Marcellus', serif;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+#copyright{
+    font-size: 15px;
+    height: 35px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.text-white {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#img-logo-bottom{
+    width: 40%;
+    display: block;
+}
+
+li {
+    margin: 4px;
+}

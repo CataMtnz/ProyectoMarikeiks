@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Tangerine&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* html, body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+} */
+
+.contenedorIcono {
+    margin: 0px auto;
+    height: 10px;
+}
+
+.titulos {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: calc(12px + 7vw);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+}
+
+#tituloFormulario {
+    font-family: 'Raleway';
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.subTitulo-contacto {
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(7px + 2vw);
+    margin-bottom: 0.5rem;
+    vertical-align: top;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+#mapa {
+    width: calc(360px + 1vw);
+    height: calc(200px + 1vw);
+}
+
+.parrafos-contacto {
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(13px + 1vw);
+    
+}
+
+#imagenes-map {
+    display: inline;
+    height: calc(200px + 1vw);
+    width: calc(150px + 1vw);
+}
+
+#imagenes-map2 {
+    display: inline;
+    height: calc(200px + 1vw);
+    width: calc(150px + 1vw);
+}
+
+#img-logo-bottom {
+    width: 40%;
+    display: block;
+}
+
+.Post {
+    position: relative;
+    vertical-align: 150px;
+}
+
+.tres-1 {
+    height: 500px;
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+.tres-2 {
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#cinco-1 {
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 2%;
+
+}

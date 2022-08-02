@@ -1,0 +1,266 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: pink;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px ;
+}
+.nav-link{
+    display: inline;
+    color:pink
+}
+
+nav a:hover{
+    color: white;
+}
+
+.text{
+    color:#2784F9
+}
+
+@media(max-width:700px){
+    header {
+        flex-direction: column;
+    }
+    nav{
+        padding:10px 0px;
+    }
+}
+
+body {
+    background-color: #7EB8DA;
+    padding: 20px;
+
+}
+
+.container {
+    border-radius: 10px;
+    background-color:  #92DDEA;
+    border:10px solid #92DDEA;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    width: 110px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-image: url("img/candybar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 30px;
+
+}
+.contactoh{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-radius: 10px;
+    color: pink;
+}
+
+.formulario{
+    background-color:#fff3cd;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-right: 50px;
+    min-width: 200px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.escribenos{
+    margin-top: 5px;
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: #4C1159;
+
+}
+.form-label{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    color: #4C1159;
+    margin-left: 120px;
+}
+
+.colocar_email{
+    display: inline;
+    margin-left: 120px;
+    color:#4C1159;
+}
+.colocar_telefono{
+    display: inline;
+    margin-left: 120px;
+    color:#4C1159;
+}
+.colocar_asunto{
+    display: inline;
+    margin-left: 120px;
+    color: #4C1159;
+}
+.colocar_mensaje{
+    display: inline;
+    margin-left: 120px;
+    color: #4C1159;
+}
+#enviar{
+width: fit-content;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+display: block;
+height: 40px;
+margin-bottom: 10px;
+}
+.aviso{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.bannerubi{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.direccion{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #92DDEA;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.mapa{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+
+}
+.vermas{
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer {
+    background-color: #92DDEA;
+    /*padding-top: 10px;*/
+    margin-top: 10px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+    border-radius: 30px;
+}
+
+.introNombre{
+    display: inline;
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.introEmail{
+    display: inline;
+    width: fit-content;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separacion1{
+    color:#4C1159;
+    width: 75%;;
+    height: 5px;
+    background-color: #4C1159;
+    border-radius: 5px;
+    margin: auto;
+}
+.separacion2{
+    color:#4C1159;
+    width: 75%;
+    margin:auto;
+    height: 5px;
+    background-color: #4C1159;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#nombre{
+    border: 10px;
+    border-radius: 5px;
+    border-color: #92DDEA;
+    background-color: #92DDEA;
+    width: fit-content;
+    display: inline;
+}
+#email{
+    border: 10px;
+    border-radius: 5px;
+    border-color: #92DDEA;
+    background-color: #92DDEA;
+    width: fit-content;
+    display: inline;
+    margin-left: 20px;
+}
+#telefono{
+    border: 10px;
+    border-radius: 5px;
+    border-color: #92DDEA;
+    background-color: #92DDEA;
+    width: fit-content;
+    display: inline;
+    margin-left: 10px;
+}
+#asunto{
+    border: 10px;
+    border-radius: 5px;
+    border-color: #92DDEA;
+    background-color: #92DDEA;
+    width: fit-content;
+    display: inline;
+    margin-left: 10px;
+}
+#mensaje{
+    border: 10px;
+    border-radius: 5px;
+    border-color: #92DDEA;
+    background-color: #92DDEA;
+    width: fit-content;
+    display: inline;
+
+}

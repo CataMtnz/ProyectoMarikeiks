@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Tangerine&display=swap');
+
+.titulo{
+  font-size: calc(10px + 1vw);
+}
+.contenido{
+  font-size: calc(6px + 1vw);
+}
+
+.colcard {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .colcard {
+  width: 25% !important;
+  display: block !important;
+  margin-bottom: 20px !important;
+  }
+} 
+
+@media screen and (max-width: 900px) {
+  .colcard {
+  width: 33% !important;
+  display: block !important;
+  margin-bottom: 20px !important;
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  .colcard {
+  width: 50% !important;
+  display: block !important;
+  margin-bottom: 20px !important;
+  }
+} 
+
+.imagen-torta {
+  object-fit: cover;
+  width: 100%;
+  height: calc(300px + 1vw);
+}
+
+.efecto {
+  display: block;
+  top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.efecto:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+  }
+
+.efecto:hover:before {
+    transform: scale(2.15);
+  }
